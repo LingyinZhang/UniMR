@@ -262,7 +262,7 @@ class App:
 
         # 创建调整窗口
         self.adjust_window = tk.Toplevel(self.root)
-        self.adjust_window.title("Adjust Parameters")
+        self.adjust_window.title("Segmentation")
         self.adjust_window.geometry("1000x750+100+20")
 
         # 创建主框架
@@ -335,7 +335,7 @@ class App:
 
             # 显示最终结果窗口
             self.image_window = tk.Toplevel(self.root)
-            self.image_window.title("Molecule Contours")
+            self.image_window.title("Labeling and Classification")
             self.image_window.geometry("1200x750+200+20")  # 增加窗口宽度以适应两栏布局
 
             # 创建主框架
