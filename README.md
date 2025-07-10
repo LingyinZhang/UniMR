@@ -49,4 +49,6 @@ This section will introduce how to use the UniMR software.
 
 6. **View Results**
 
-   Please wait patiently. When the classification is completed, the software will pop up a Classification Results Window showing the quantity of each type of molecule.
+   Please wait patiently. When the classification is completed, the software will pop up a Classification Results Window showing the quantity of each type of molecule. Meanwhile, the classification results will be synchronously updated to the image in the Labeling and Classification Window.
+
+   
