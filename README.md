@@ -9,9 +9,9 @@ To use our software, you need to use the following systems and python version.
 - Operating System: Windows
 - Python Version: Python 3.9 or higher
 
-We suggest that you run the software in a virtual environment like `conda create -n unimr python=3.9` 
+We suggest that you run the software in a virtual environment like `conda create -n UniMR python=3.9` , and then activate the virtual environment through `conda activate UniMR`.
 
-Please install the necessary dependencies through `pip install -r requirements.txt` .
+Please don't forget to enter the directory where you have downloaded through `cd UniMR`, and install the necessary dependencies through `pip install -r requirements.txt` .
 
 Please note that the "models" folder is used to store the clip models used by the software. They can be automatically downloaded by running the software or manually downloaded through the website [ViT-B-32.pt](https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt).
 
